@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Accounts Home" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="True"
-    CodeBehind="Default.aspx.cs" Inherits="Accounts.Web.Default" %>
+    CodeBehind="Default.aspx.cs" Inherits="ProfitCalc.Web.Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

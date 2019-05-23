@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Web.Configuration;
 using System.Web.UI;
-using Accounts.BLL;
+using ProfitCalc.BLL;
 
-namespace Accounts.Web
+namespace ProfitCalc.Web
 {
     public partial class SiteMaster : MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            litWebConfigValue.Text = WebConfigurationManager.AppSettings["Accounts.Value"];
+            litWebConfigValue.Text = WebConfigurationManager.AppSettings["ProfitCalc.Value"];
 
             try
             {

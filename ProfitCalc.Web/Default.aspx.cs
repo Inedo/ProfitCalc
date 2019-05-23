@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Web.UI;
-using Accounts.BLL;
+using ProfitCalc.BLL;
 
-namespace Accounts.Web
+namespace ProfitCalc.Web
 {
     public partial class Default : Page
     {

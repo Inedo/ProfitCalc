@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Accounts.BLL
+namespace ProfitCalc.BLL
 {
     /// <summary>
     /// Calculator used determine net cost.

@@ -7,54 +7,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Accounts.Web {
+namespace ProfitCalc.Web {
     
     
-    public partial class SiteMaster {
+    public partial class Default {
         
         /// <summary>
-        /// HeadContent control.
+        /// pnlError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.Panel pnlError;
         
         /// <summary>
-        /// form1 control.
+        /// txtRevenue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox txtRevenue;
         
         /// <summary>
-        /// MainContent control.
+        /// txtExpenses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox txtExpenses;
         
         /// <summary>
-        /// litWebConfigValue control.
+        /// litNet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litWebConfigValue;
+        protected global::System.Web.UI.WebControls.Literal litNet;
         
         /// <summary>
-        /// litVersion control.
+        /// btnDisplayTotals control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litVersion;
+        protected global::System.Web.UI.WebControls.Button btnDisplayTotals;
     }
 }

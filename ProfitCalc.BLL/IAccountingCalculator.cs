@@ -1,5 +1,5 @@
 ﻿
-namespace Accounts.BLL
+namespace ProfitCalc.BLL
 {
     /// <summary>
     /// Represents a contract for an account balance calculator.

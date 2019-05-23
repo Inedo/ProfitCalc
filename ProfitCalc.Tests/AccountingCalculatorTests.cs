@@ -1,8 +1,8 @@
 ﻿using System;
-using Accounts.BLL;
+using ProfitCalc.BLL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Accounts.Tests
+namespace ProfitCalc.Tests
 {
     [TestClass]
     public class AccountingCalculatorTests
