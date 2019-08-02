@@ -1,10 +1,15 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.Web", "ProfitCalc.Web\ProfitCalc.Web.csproj", "{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.BLL", "ProfitCalc.BLL\ProfitCalc.BLL.csproj", "{35FC1792-AF5C-478A-B042-D76B80732907}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.Tests", "ProfitCalc.Tests\ProfitCalc.Tests.csproj", "{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.Console", "ProfitCalc.Console\ProfitCalc.Console.csproj", "{A3120F64-CC74-4FFA-84F9-651D656A27C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,8 +29,15 @@ Global
 		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3120F64-CC74-4FFA-84F9-651D656A27C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3120F64-CC74-4FFA-84F9-651D656A27C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3120F64-CC74-4FFA-84F9-651D656A27C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3120F64-CC74-4FFA-84F9-651D656A27C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F274DE05-9777-4B3E-B90E-F856016BB1AC}
 	EndGlobalSection
 EndGlobal
