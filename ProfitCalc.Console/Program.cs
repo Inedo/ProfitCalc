@@ -1,10 +1,21 @@
 ﻿using Newtonsoft.Json;
 using ProfitCalc.BLL;
+using SimpleInjector;
 
 namespace ProfitCalc.Console
 {
     class Program
     {
+
+        static readonly Container container;
+
+        static Program()
+        {
+            container = new Container();
+            container.Register<AccountingCalculator>();
+            container.Verify();
+        }
+
         static void Main(string[] args)
         {
             decimal? revenue = null;
@@ -23,8 +34,7 @@ namespace ProfitCalc.Console
                 expenses = PromptDecimal("Enter expenses: ");
             }
 
-            var calculator = new AccountingCalculator();
-            decimal profit = calculator.CalculateNet(revenue.Value, expenses.Value);
+            decimal profit = container.GetInstance<AccountingCalculator>().CalculateNet(revenue.Value, expenses.Value);
 
             System.Console.WriteLine("Profit: " + profit.ToString("C2"));
             System.Console.WriteLine("Profit JSON: " + JsonConvert.SerializeObject(profit));
