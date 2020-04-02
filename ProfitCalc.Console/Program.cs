@@ -1,4 +1,5 @@
-﻿using ProfitCalc.BLL;
+﻿using Newtonsoft.Json;
+using ProfitCalc.BLL;
 
 namespace ProfitCalc.Console
 {
@@ -26,6 +27,7 @@ namespace ProfitCalc.Console
             decimal profit = calculator.CalculateNet(revenue.Value, expenses.Value);
 
             System.Console.WriteLine("Profit: " + profit.ToString("C2"));
+            System.Console.WriteLine("Profit JSON: " + JsonConvert.SerializeObject(profit));
         }
 
         static decimal PromptDecimal(string prompt)
