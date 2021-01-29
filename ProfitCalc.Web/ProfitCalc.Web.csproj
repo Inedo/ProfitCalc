@@ -26,6 +26,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,13 +94,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProfitCalc.BLL\ProfitCalc.BLL.csproj">
-      <Project>{35FC1792-AF5C-478A-B042-D76B80732907}</Project>
-      <Name>ProfitCalc.BLL</Name>
-    </ProjectReference>
+    <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Site.Master" />
+    <ProjectReference Include="..\ProfitCalc.BLL\ProfitCalc.BLL.csproj">
+      <Project>{35fc1792-af5c-478a-b042-d76b80732907}</Project>
+      <Name>ProfitCalc.BLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
