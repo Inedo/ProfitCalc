@@ -56,13 +56,13 @@
     <Compile Include="AccountingCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ProfitCalc.BLL\ProfitCalc.BLL.csproj">
-      <Project>{35fc1792-af5c-478a-b042-d76b80732907}</Project>
+      <Project>{35FC1792-AF5C-478A-B042-D76B80732907}</Project>
       <Name>ProfitCalc.BLL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
