@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Profit Calculator";
+}
+
+@using (Html.BeginForm())
+{
+    <h2>Profit Calculator</h2>
+    @Html.ValidationSummary()
+
+    <table class="table">
+        <thead>
+            <tr><th>Line Item</th><th>Amount</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.LabelFor(model => model.Revenue)</td>
+                <td>@Html.TextBoxFor(model => model.Revenue)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Expenses)</td>
+                <td>@Html.TextBoxFor(model => model.Expenses)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.NetProfit)</td>
+                <td>@Html.ValueFor(model => model.NetProfit)</td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" value="Display Totals" />
+}

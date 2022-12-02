@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfitCalc.Console", "Profi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfitCalc.Tests", "ProfitCalc.Tests\ProfitCalc.Tests.csproj", "{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.Web", "ProfitCalc.Web\ProfitCalc.Web.csproj", "{82D47A6E-ADBB-4EEE-B0BC-933AEBAEB8F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D47A6E-ADBB-4EEE-B0BC-933AEBAEB8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D47A6E-ADBB-4EEE-B0BC-933AEBAEB8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D47A6E-ADBB-4EEE-B0BC-933AEBAEB8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D47A6E-ADBB-4EEE-B0BC-933AEBAEB8F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
