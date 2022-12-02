@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.61
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfitCalc.BLL", "ProfitCalc.BLL\ProfitCalc.BLL.csproj", "{6C0731B4-224F-44EF-8054-F0372085CD79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfitCalc.Console", "ProfitCalc.Console\ProfitCalc.Console.csproj", "{E939E28E-A97A-46AA-BA05-8A50A9375298}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfitCalc.Tests", "ProfitCalc.Tests\ProfitCalc.Tests.csproj", "{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitCalc.Web", "ProfitCalc.Web\ProfitCalc.Web.csproj", "{DC936D93-4C8B-41A9-B9B2-13CAD52D8EC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA28CAA6-86AD-45B5-9788-8F82E1C3687F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC936D93-4C8B-41A9-B9B2-13CAD52D8EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC936D93-4C8B-41A9-B9B2-13CAD52D8EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC936D93-4C8B-41A9-B9B2-13CAD52D8EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC936D93-4C8B-41A9-B9B2-13CAD52D8EC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
